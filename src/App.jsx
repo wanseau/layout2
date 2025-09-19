@@ -6,8 +6,10 @@ function App() {
       <div className="header">
         <div className="header-box"></div>
         <div className="header-box header-center">
-          <div className="center-left"></div>
-          <div className="center-right"></div>
+          {}
+          <div className="center-left">Lance</div>
+          {}
+          <div className="center-right">Laxamana</div>
         </div>
         <div className="header-box"></div>
       </div>
@@ -20,8 +22,10 @@ function App() {
       </div>
       <div className="footer">
         <div className="footer-box"></div>
-        <div className="footer-box footer-center"></div>
-        <div className="footer-box footer-center"></div>
+        {}
+        <div className="footer-box footer-center">C-PCIT9</div>
+        {}
+        <div className="footer-box footer-center">IT3A</div>
         <div className="footer-box"></div>
       </div>
     </div>
