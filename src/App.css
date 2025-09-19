@@ -48,12 +48,18 @@
   background: #ffc2c2;
   border: 4px solid #f00;
   min-height: 45px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
 
 .main-left {
   flex: 1.5;
   background: #e6b1b1;
-  border: 4px solid #c73c3c;
+  border: 4px solid #a2252a;
   min-height: 165px;
 }
 
@@ -67,7 +73,7 @@
 .main-right-top, .main-right-bottom {
   flex: 1.5;
   background: #f8b9b9;
-  border: 4px solid #c73c3c;
+  border: 4px solid #a2252a;
   min-height: 70px;
 }
 
@@ -81,8 +87,12 @@
   justify-content: center;
   margin: .1px;
 }
+
 .footer-center {
   background: #f6ddb9;
   border: 4px solid #f4a38d;
   flex: .4;
+  color: white;
+  font-weight: bold;
+ 
 }
